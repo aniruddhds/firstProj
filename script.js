@@ -1,9 +1,3 @@
-function handleCostKeydown(event){
-            if (event.key === 'Enter') {
-                calculate();
-            }
-        }
-        
 function calculate(){
     const inputEle = document.querySelector('.jsInput');
 
@@ -14,4 +8,13 @@ function calculate(){
     }
 
     document.querySelector('.jsTotalCost').innerHTML = `$${cost}`;
+    inputEle.value='';
 }
+
+function handleCostKeydown(event){
+    if (event.key === 'Enter') {
+        calculate(); 
+        //const inputArea = document.querySelector('.jsInput');
+        //inputArea.value='';
+    }
+}       

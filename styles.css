@@ -31,17 +31,54 @@ body {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 330px;
-    margin-right: 330px;
+    margin-left: 730px;
     border-width: 0.15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 
 .button1:hover{
     color: white;
     background-color: #665cd1;
-    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5)
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.jsInput{
+    padding: 10px;
+    font-family: courier prime;
+    background-color: rgb(128, 241, 241);
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 650px;
+    border-width: 0.15px;
+}
+
+.calculateButton{
+    padding: 9px;
+    font-family: courier prime;
+    background-color: rgb(128, 241, 241);
+    text-align: center;
+    border-radius: 40px;
+}
+
+.calculateButton:hover{
+    background-color: #8a82da;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.jsInput:hover{
+    color:white;
+    background-color: #8a82da;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.textBox{
+    font-family: courier prime;
+    padding: 5px;
+    text-align: center;
+}
+
+.jsTotalCost{
+    font-family: courier prime;
+    text-align: center;
+    font-size: 40px;
 }
