@@ -22,5 +22,5 @@ function changeDisplay(){
 }
 
 function resetButton(){
-    document.querySelector('.para').innerHTML = "WELCOME BACK TO THE NEW FRONTIER";
+    document.querySelector('.para').innerHTML = "WELCOME BACK TO THE NEW FRONTIER!!";
 }
