@@ -20,9 +20,9 @@ function handleCostKeydown(event){
 }
 
 function changeDisplay(){
-    document.querySelector('.para').innerHTML="YOU ARE IN THE SYSTEM!"
+    document.querySelector('.para').innerHTML="YOU ARE IN THE SYSTEM!";
 }
 
-function reset(){
-    document.querySelector('.para').innerHTML = "WELCOME BACK TO THE NEW FRONTIER"
+function resetButton(){
+    document.querySelector('.para').innerHTML = "WELCOME BACK TO THE NEW FRONTIER";
 }
