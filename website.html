@@ -19,19 +19,27 @@
             WELCOME TO THE NEW FRONTIER!
         </p>
 
-        <button class="button1" onclick="changeDisplay();" >
-            PRESS ME
-        </button>
+        <div class="button-container">
+            <button class="button1" onclick="changeDisplay();" >
+                PRESS ME
+            </button>
+    
+            <button class="buttonReset" onclick="resetButton();" >
+                 RESET 
+            </button>
+        </div>
 
-        <button class="buttonReset" onclick="resetButton();" >
-             RESET 
-        </button>
+        <hr>
 
         <p class="textBox"> INPUT JS TEXT BELOW</p>
 
-        <input class="jsInput" placeholder="Type here"  onkeydown="handleCostKeydown(event);">
-
-        <button onclick="calculate();" class="calculateButton"> Calculate</button>
+        <div class="button-calculator">
+            <input class="jsInput" placeholder="Type here"  onkeydown="handleCostKeydown(event);">
+    
+            <button onclick="calculate();" class="calculateButton"> 
+                CALCULATE
+            </button>
+        </div>
 
         <p class="jsTotalCost"> </p>
         

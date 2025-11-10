@@ -1,5 +1,5 @@
 body {
-    background-image: radial-gradient(circle, #fa98ff,#f4fd80,#f5d39f,#665cd1,#dc046b);
+    background-image: radial-gradient(circle, #8a8aff,#5c5cff,#2e2eff,#0000ff,#0000d1);
     min-height: 100vh;
     margin: 0;
     align-items: center;
@@ -21,31 +21,37 @@ body {
     font-family:courier prime;
     font-style: italic;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 100px;
+}
+
+.button-container{
+    display:flex;
+    gap: 50px;
+    justify-content: center;
 }
 
 .button1{
     color: black;
     background-color: turquoise;
     font-family: courier prime;
+    font-size: 25px;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 730px;
     border-width: 0.15px;
-    padding: 10px;
+    padding: 7px;
+    width: 150px;
+    height: 60px;
 }
 
 .buttonReset{
     color: black;
     background-color: turquoise;
     font-family: courier prime;
+    font-size: 25px;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 750px;
     border-width: 0.15px;
-    padding: 10px;
+    padding: 7px;
+    width: 150px;
+    height: 60px;
 }
 
 .button1:hover{
@@ -60,27 +66,37 @@ body {
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
 }
 
-.jsInput{
-    padding: 10px;
+.textBox{
     font-family: courier prime;
-    background-color: rgb(128, 241, 241);
+    font-size: 25px;
+    padding: 5px;
     text-align: center;
-    margin-top: 10px;
-    margin-left: 650px;
-    border-width: 0.15px;
 }
 
 .calculateButton{
-    padding: 9px;
     font-family: courier prime;
     background-color: rgb(128, 241, 241);
+    font-weight: bold;
+    font-size: 20px;
     text-align: center;
     border-radius: 40px;
+    width: 200px;
+    height: 45px;
 }
 
 .calculateButton:hover{
     background-color: #8a82da;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.jsInput{
+    padding: 10px;
+    font-family: courier prime;
+    background-color: rgb(128, 241, 241);
+    text-align: center;
+    border-width: 0.15px;
+    width: 200px;
+    height: 25px;
 }
 
 .jsInput:hover{
@@ -89,14 +105,22 @@ body {
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
 }
 
-.textBox{
-    font-family: courier prime;
-    padding: 5px;
-    text-align: center;
-}
 
 .jsTotalCost{
     font-family: courier prime;
     text-align: center;
     font-size: 40px;
+}
+
+hr{
+    border: black;
+    height: 1px;
+    background-color: rgb(94, 107, 225);
+    padding: 5px;
+}
+
+.button-calculator{
+    display:flex;
+    gap: 50px;
+    justify-content: center;
 }
