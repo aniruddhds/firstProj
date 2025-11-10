@@ -17,4 +17,8 @@ function handleCostKeydown(event){
         //const inputArea = document.querySelector('.jsInput');
         //inputArea.value='';
     }
-}       
+}
+
+function changeDisplay(){
+    document.querySelector('.para').innerHTML="YOU ARE IN THE SYSTEM!"
+}

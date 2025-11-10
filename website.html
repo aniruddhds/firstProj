@@ -19,13 +19,16 @@
             WELCOME TO THE NEW FRONTIER!
         </p>
 
-        <button class="button1" >
+        <button class="button1" onclick="changeDisplay();" >
             PRESS ME
         </button>
 
         <p class="textBox"> INPUT JS TEXT BELOW</p>
+
         <input class="jsInput" placeholder="Type here"  onkeydown="handleCostKeydown(event);">
+
         <button onclick="calculate();" class="calculateButton"> Calculate</button>
+
         <p class="jsTotalCost"> </p>
         
         <script src="script.js"></script>
