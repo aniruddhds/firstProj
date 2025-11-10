@@ -14,8 +14,6 @@ function calculate(){
 function handleCostKeydown(event){
     if (event.key === 'Enter') {
         calculate(); 
-        //const inputArea = document.querySelector('.jsInput');
-        //inputArea.value='';
     }
 }
 

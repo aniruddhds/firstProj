@@ -124,3 +124,20 @@ hr{
     gap: 50px;
     justify-content: center;
 }
+
+a{
+    color: rgb(241, 22, 22);
+    font-family: helvetica;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+}
+
+a:hover{
+    font-style: italic;
+    color: brown;
+}
+
+a:active{
+    color: green;
+}
