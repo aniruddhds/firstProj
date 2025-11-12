@@ -18,7 +18,7 @@ function handleCostKeydown(event){
 }
 
 function changeDisplay(){
-    document.querySelector('.para').innerHTML="YOU ARE IN THE SYSTEM!";
+    document.querySelector('.para').innerHTML="YOU ARE IN THE SYSTEM!!";
 }
 
 function resetButton(){
